@@ -15,17 +15,17 @@
   column-gap: 1rem;
 }
 
-.nav__logo, .nav__toggle {
+.nav-logo, .nav-toggle {
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
 
-.nav__list {
+.nav-list {
     display: flex;
     column-gap: 2rem;
 }
 
-.nav__link {
+.nav-link {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,7 +35,7 @@
   transition: .3s;
 }
 
-.nav__toggle, .nav__icon, .nav__close {
+.nav-toggle, .nav-icon, .nav-close {
     display: none;
 }
 
@@ -43,7 +43,7 @@
   color: var(--title-color-dark);
 }
 
-.nav__link:hover {
+.nav-link:hover {
   color: var(--title-color-hover);
 }
 
@@ -59,7 +59,7 @@
     height: var(--header-height);
   }
 
-  .nav__menu {
+  .nav-menu {
     position: fixed;
     bottom: -100%;
     left: 0;
@@ -75,17 +75,17 @@
     bottom: 0;
   }
 
-  .nav__list {
+  .nav-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
 
-  .nav__icon {
+  .nav-icon {
     font-size: 1.2rem;
   }
 
-  .nav__close {
+  .nav-close {
     position: absolute;
     right: 1.3rem;
     bottom: .5rem;
@@ -94,26 +94,26 @@
     color: var(--title-color);
   }
 
-  .nav__close:hover {
+  .nav-close:hover {
     color: var(--title-color-dark);
   }
 
-  .nav__toggle {
+  .nav-toggle {
     font-size: 1.1rem;
     cursor: pointer;
   }
-  .nav__icon, .nav__close, .nav__toggle {
+  .nav-icon, .nav-close, .nav-toggle {
       display: block;
   }
 }
 
 /* Phones */
 @media screen and (max-width: 350px) {
-  .nav__menu {
+  .nav-menu {
       padding: 2rem 0.25rem 4rem;
   }
 
-  .nav__list {
+  .nav-list {
       column-gap: 0;
   }
 }

@@ -8,11 +8,11 @@ const Home = () => {
   return (
     <div>
       <section className="home section" id="home">
-        <div className="home__container container grid">
-          <div className="home__content grid">
+        <div className="home-container container grid">
+          <div className="home-content grid">
             <Social />
 
-            <div className="home__img"></div>
+            <div className="home-img"></div>
 
             <Data />
           </div>
