@@ -39,9 +39,14 @@
     display: none;
 }
 
-.active-link, .nav__link:hover {
-    color: var(--title-color-dark);
+.active-link {
+  color: var(--title-color-dark);
 }
+
+.nav__link:hover {
+  color: var(--title-color-hover);
+}
+
 
 /* iPads */
 @media screen and (max-width: 768px) {
