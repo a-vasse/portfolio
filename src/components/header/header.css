@@ -53,6 +53,7 @@
   .header {
       top: initial;
       bottom: 0;
+      display: flex;
   }
 
   .nav {
