@@ -110,7 +110,7 @@ button {
   background-color: var(--title-color-dark);
 }
 
-.button-icon {
+.button__icon {
   margin-left: var(--mb-0-5);
 }
 
@@ -128,19 +128,19 @@ img {
   padding: 6rem 0 2rem;
 }
 
-.section-title {
+.section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section-subtitle {
+.section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
-.section-title,
-.section-subtitle {
+.section__title,
+.section__subtitle {
   text-align: center;
 }
 
@@ -166,7 +166,7 @@ img {
     padding: 1rem 1.75rem;
   }
 
-  .button-icon {
+  .button__icon {
     width: 22px;
     height: 22px;
   }
@@ -182,7 +182,7 @@ img {
     padding: 2rem 0 4rem;
   }
 
-  .section-subtitle {
+  .section__subtitle {
     margin-bottom: var(--mb-3);
   }
 }

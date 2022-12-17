@@ -9,50 +9,50 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav-logo">Alexander Vasse</a>
+        <a href="index.html" className="nav__logo">Vasse</a>
 
-        <div className={Toggle ? "nav-menu show-menu" : "nav-menu" }>
-          <ul className="nav-list grid">
+        <div className={Toggle ? "nav__menu show-menu" : "nav__menu" }>
+          <ul className="nav__list grid">
 
-            <li className="nav-item">
-              <a href="#home" className="nav-link active-link">
-              <i className="fa-solid fa-earth-asia nav-icon"></i> Home
+            <li className="nav__item">
+              <a href="#home" className="nav__link active-link">
+              <i className="fa-solid fa-earth-asia nav__icon"></i> Home
               </a>
             </li>
 
-            <li className="nav-item">
-              <a href="#about" className="nav-link">
-              <i className="fa-regular fa-user nav-icon"></i> About
+            <li className="nav__item">
+              <a href="#about" className="nav__link">
+              <i className="fa-regular fa-user nav__icon"></i> About
               </a>
             </li>
 
-            <li className="nav-item">
-              <a href="#skills" className="nav-link">
-              <i className="fa-solid fa-gears nav-icon"></i> Skills
+            <li className="nav__item">
+              <a href="#skills" className="nav__link">
+              <i className="fa-solid fa-gears nav__icon"></i> Skills
               </a>
             </li>
 
-            <li className="nav-item">
-              <a href="#services" className="nav-link">
-              <i className="fa-solid fa-wrench nav-icon"></i> Services
+            <li className="nav__item">
+              <a href="#services" className="nav__link">
+              <i className="fa-solid fa-wrench nav__icon"></i> Services
               </a>
             </li>
 
-            <li className="nav-item">
-              <a href="#portfolio" className="nav-link">
-              <i className="fa-regular fa-image nav-icon"></i> Portfolio
+            <li className="nav__item">
+              <a href="#portfolio" className="nav__link">
+              <i className="fa-regular fa-image nav__icon"></i> Portfolio
               </a>
             </li>
 
-            <li className="nav-item">
-              <a href="#contact" className="nav-link">
-              <i className="fa-solid fa-envelope nav-icon"></i> Contact
+            <li className="nav__item">
+              <a href="#contact" className="nav__link">
+              <i className="fa-solid fa-envelope nav__icon"></i> Contact
               </a>
             </li>
           </ul>
-          <i class="fa-regular fa-circle-xmark nav-close" onClick={handleClick}></i>
+          <i class="fa-regular fa-circle-xmark nav__close" onClick={handleClick}></i>
         </div>
-        <div className="nav-toggle" onClick={handleClick}>
+        <div className="nav__toggle" onClick={handleClick}>
           <i class="fa-solid fa-bars"></i>
         </div>
       </nav>

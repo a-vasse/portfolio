@@ -3,11 +3,11 @@ import React from 'react';
 const Social = () => {
   return (
     <div>
-      <div className="home-social">
-        <a href="www.github.com/a-vasse" className="home-social-icon" target="_blank">
+      <div className="home__social">
+        <a href="www.github.com/a-vasse" className="home__social-icon" target="_blank">
         <i class="fa-brands fa-github"></i>
         </a>
-        <a href="www.linkedin.com/in/alexandervasse/" className="home-social-icon" target="_blank">
+        <a href="www.linkedin.com/in/alexandervasse/" className="home__social-icon" target="_blank">
         <i class="fa-brands fa-linkedin"></i>
         </a>
       </div>
