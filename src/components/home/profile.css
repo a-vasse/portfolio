@@ -1,0 +1,78 @@
+.home-img {
+  background: url(../../assets//profile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  order: 1;
+  box-shadow: 0 0 24px #008cff;
+  justify-self: center;
+  width: 300px;
+  height: 300px;
+  --border-width: 6px;
+  position: relative;
+  border-radius: var(--border-width);
+}
+
+.home-img::after {
+  position: absolute;
+  content: "";
+  top: calc(-1 * var(--border-width));
+  left: calc(-1 * var(--border-width));
+  z-index: -1;
+  width: calc(100% + var(--border-width) * 2);
+  height: calc(100% + var(--border-width) * 2);
+  background: linear-gradient(
+    60deg,
+    hsl(224, 96%, 52%),
+    hsl(199, 100%, 59%),
+    hsl(197, 100%, 76%),
+    hsl(210, 17%, 91%),
+    hsl(219, 87%, 76%),
+    hsl(0, 0%, 100%),
+    hsl(202, 100%, 50%),
+    hsl(179, 79%, 72%)
+  );
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  border-radius: calc(2 * var(--border-width));
+  animation: moveGradient 6s alternate infinite;
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* large */
+@media screen and (max-width: 992px) {
+  .home-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .home-img {
+    order: initial;
+    justify-self: initial;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .home-img {
+    order: initial;
+    justify-self: initial;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .home__img {
+    width: 180px;
+    height: 180px;
+  }
+}
