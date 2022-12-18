@@ -1,7 +1,6 @@
-
 import React from 'react';
 import "./home.css";
-import Data from "./Data";
+import Data from "./Intro";
 
 const Home = () => {
   return (
@@ -9,12 +8,9 @@ const Home = () => {
       <section className="home section" id="home">
         <div className="home-container container grid">
           <div className="home-content grid">
-
-
             <div className="home-img"></div>
             <Data />
           </div>
-
         </div>
       </section>
     </div>

@@ -1,3 +1,7 @@
+.home__container {
+  row-gap: 7rem;
+}
+
 .home-content {
   grid-template-columns: 50% repeat(2, 1fr);
   padding-top: 5.5rem;
@@ -14,11 +18,6 @@
 .home-social-icon:hover {
   color: var(--title-color-dark);
   transition: 1s;
-}
-
-.home-title {
-  font-size: var(--big-font-size);
-  margin-bottom: var(--mb-0-25);
 }
 
 .home-subtitle {
@@ -56,9 +55,6 @@
   height: 300px;
   --border-width: 6px;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: var(--border-width);
 }
 
@@ -94,91 +90,71 @@
   }
 }
 
-*:focus,
-*:active {
-  outline: none !important;
-  -webkit-tap-highlight-color: transparent;
+/* Desktop */
+@media screen and (max-width: 992px) {
+  .home-content {
+    grid-template-columns: none;
+    column-gap: 1.25rem;
+    justify-content: center;
+  }
+
+  .home-subtitle {
+    padding-left: 3.75rem;
+    margin-bottom: var(--mb-1);
+  }
+
+  .home-subtitle::before {
+    width: 42px;
+    top: 0.8rem;
+  }
+
+  .home-description {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .home-img {
+    order: initial;
+    justify-self: initial;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 12px #008cff;
+  }
+
 }
 
-.icon-wrapper {
-  display: inline-flex;
-  list-style: none;
+/* Ipads */
+@media screen and (max-width: 768px) {
+  .home-content {
+    grid-template-columns: 0.5fr, 3fr;
+    padding-top: 1rem;
+  }
+
+  .home-img {
+    order: initial;
+    justify-self: initial;
+  }
+
+  .home-img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 12px #008cff;
+  }
+
+  .home-description {
+    max-width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .contact {
+    display: none;
+  }
 }
 
-.icon-wrapper .icon {
-  color:#969696;
-  position: relative;
-  background: #ffffff;
-  border-radius: 50%;
-  padding: 15px;
-  margin: 10px;
-  width: 50px;
-  height: 50px;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.icon-wrapper .tooltip {
-  position: absolute;
-  top: 0;
-  font-size: 14px;
-  background: #ffffff;
-  color: #ffffff;
-  padding: 5px 8px;
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.icon-wrapper .tooltip::before {
-  position: absolute;
-  content: "";
-  height: 8px;
-  width: 8px;
-  background: #ffffff;
-  bottom: -3px;
-  left: 50%;
-  transform: translate(-50%) rotate(45deg);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.icon-wrapper .icon:hover .tooltip {
-  top: -45px;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.icon-wrapper .icon:hover span,
-.icon-wrapper .icon:hover .tooltip {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-}
-
-.icon-wrapper .linkedin:hover,
-.icon-wrapper .linkedin:hover .tooltip,
-.icon-wrapper .linkedin:hover .tooltip::before {
-  background: #1877F2;
-  color: #ffffff;
-}
-
-.icon-wrapper .github:hover,
-.icon-wrapper .github:hover .tooltip,
-.icon-wrapper .github:hover .tooltip::before {
-  background: #333333;
-  color: #ffffff;
-}
-
-.icon-wrapper .instagram:hover,
-.icon-wrapper .instagram:hover .tooltip,
-.icon-wrapper .instagram:hover .tooltip::before {
-  background: #E4405F;
-  color: #ffffff;
+/* Phones */
+@media screen and (max-width: 350px) {
+  .home-img {
+    width: 180px;
+    height: 180px;
+  }
 }

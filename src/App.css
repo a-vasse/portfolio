@@ -125,7 +125,7 @@ img {
 }
 
 .section {
-  padding: 6rem 0 2rem;
+  padding: 2rem 0 2rem;
 }
 
 .section-title {
@@ -155,7 +155,6 @@ img {
   gap: 1.5rem;
 }
 
-/* Desktop */
 @media screen and (max-width: 992px) {
   .container {
     margin-left: var(--mb-1-5);
@@ -166,13 +165,12 @@ img {
     padding: 1rem 1.75rem;
   }
 
-  .button-icon {
+  .button__icon {
     width: 22px;
     height: 22px;
   }
 }
 
-/* Ipads */
 @media screen and (max-width: 768px) {
   body {
     margin: 0 0 var(--header-height) 0;
@@ -190,8 +188,11 @@ img {
 @media screen and (max-width: 576px) {
 }
 
-/* Phones */
 @media screen and (max-width: 350px) {
+  :root {
+    --big-font-size: 2.25rem;
+  }
+
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);

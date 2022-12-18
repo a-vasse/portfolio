@@ -48,7 +48,7 @@
 }
 
 
-/* iPads */
+/* For medium devices */
 @media screen and (max-width: 768px) {
   .header {
       top: initial;
@@ -57,58 +57,61 @@
   }
 
   .nav {
-    height: var(--header-height);
+      height: var(--header-height);
   }
 
   .nav-menu {
-    position: fixed;
-    bottom: -100%;
-    left: 0;
-    width: 100%;
-    background-color: var(--body-color);
-    padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 1.5rem 1.5rem 0 0;
-    transition: .3s;
+      position: fixed;
+      bottom: -100%;
+      left: 0;
+      width: 100%;
+      background-color: var(--body-color);
+      padding: 2rem 1.5rem 4rem;
+      box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 1.5rem 1.5rem 0 0;
+      transition: .3s;
   }
 
+  /* Show Menu */
   .show-menu {
-    bottom: 0;
+      bottom: 0;
   }
 
   .nav-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
   }
 
   .nav-icon {
-    font-size: 1.2rem;
+      font-size: 1.2rem;
   }
 
   .nav-close {
-    position: absolute;
-    right: 1.3rem;
-    bottom: .5rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: var(--title-color);
+      position: absolute;
+      right: 1.3rem;
+      bottom: .5rem;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--title-color);
   }
 
   .nav-close:hover {
-    color: var(--title-color-dark);
+      color: var(--title-color-dark);
   }
 
   .nav-toggle {
-    font-size: 1.1rem;
-    cursor: pointer;
+      font-size: 1.1rem;
+      cursor: pointer;
   }
-  .nav-icon, .nav-close, .nav-toggle {
+
+  .nav-icon,
+  .nav-close,
+  .nav-toggle {
       display: block;
   }
 }
 
-/* Phones */
 @media screen and (max-width: 350px) {
   .nav-menu {
       padding: 2rem 0.25rem 4rem;
