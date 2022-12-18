@@ -8,7 +8,7 @@ const Intro = () => {
       </svg>
       <h3 className="home-subtitle">Full Stack Web Developer</h3>
       <p className="home-description">Developer residing just outside Tokyo. Ruby on Rails | Javascript | HTML/CSS</p>
-      <a href="#contact" className="contact button button--flex">Contact Me<i class="fa-regular fa-comments"></i></a>
+      <a href="#contact" className="button button--flex">Contact Me<i class="fa-regular fa-comments"></i></a>
       <ul class="icon-wrapper">
         <a href="http://www.linkedin.com/in/alexandervasse" rel="noopener noreferrer" target="_blank">
           <li class="icon linkedin"><span class="tooltip">LinkedIn</span>

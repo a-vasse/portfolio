@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   order: 1;
-  box-shadow: 0 0 24px #008cff;
+  box-shadow: var(--box-shadow);
   justify-self: center;
   width: 300px;
   height: 300px;
@@ -55,7 +55,6 @@
 @media screen and (max-width: 820px) {
   .home-img {
     order: initial;
-    justify-self: initial;
     width: 200px;
     height: 200px;
   }
@@ -63,8 +62,6 @@
 
 @media screen and (max-width: 770px) {
   .home-img {
-    order: initial;
-    justify-self: initial;
     width: 200px;
     height: 200px;
   }

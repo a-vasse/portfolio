@@ -10,8 +10,8 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --text-color-hover: #d7f2ff;
   --body-color: #74c5f5;
-  --container-color: #fff;
-
+  --container-color: rgb(222, 243, 252);
+  --box-shadow: 0 0 24px #037fd1;
   --body-font: "Poppins", sans-serif;
 
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -99,6 +99,8 @@ button {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  gap: 8px;
+  box-shadow: var(--box-shadow);
 }
 
 .button:hover {
@@ -170,7 +172,17 @@ img {
 
 /* medium */
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
 
+  .section {
+    padding: 2rem 0 4rem;
+  }
+
+  .section-subtitle {
+    margin-bottom: var(--mb-3);
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -192,6 +204,9 @@ img {
 }
 
 @media screen and (max-width: 280px) {
+  :root {
+    --big-font-size: 2.25rem;
+  }
   .button {
     padding: 1rem 1rem;
     width: 130px;
