@@ -7,6 +7,10 @@ const App = () => {
   return (
     <>
     <Navbar />
+
+    <main className="main">
+      <Home />
+    </main>
     </>
   )
 }

@@ -4,6 +4,11 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+.icons-bar {
+  display: flex;
+  gap: 20px;
+}
+
 .icon-wrapper {
   display: inline-flex;
   list-style: none;
