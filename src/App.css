@@ -1,35 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
-  /*.5rem = 8px | 1rem = 16px ...*/
+  --header-height: 3rem;
 
-  /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --title-color-hover: #dfdfdf;
-  --text-color: hsl(var(--hue), var(--sat), 80%);
-  --body-color:  #9edbff;
-  --container-color: #8ed2fa;
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --text-color-hover: #d7f2ff;
+  --body-color: #74c5f5;
+  --container-color: #fff;
 
   --body-font: "Poppins", sans-serif;
 
-  --header-height: 3rem;
-
-  --big-font-size: 2.5rem;
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --big-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
-  --smaller-font-size: 0.825rem;
+  --smaller-font-size: 0.813rem;
   --tiny-font-size: 0.625rem;
-
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
-
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
@@ -39,16 +35,15 @@
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
 
-  /* z index */
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
 }
 
-/* Responsiveness */
+/* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {
-    --big-font-size: 2.25rem;
+    --big-font-size: 2.75rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
@@ -110,7 +105,7 @@ button {
   background-color: var(--title-color-dark);
 }
 
-.button-icon {
+.button__icon {
   margin-left: var(--mb-0-5);
 }
 
@@ -125,22 +120,22 @@ img {
 }
 
 .section {
-  padding: 2rem 0 2rem;
+  padding: 6rem 0 2rem;
 }
 
-.section-title {
+.section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section-subtitle {
+.section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
-.section-title,
-.section-subtitle {
+.section__title,
+.section__subtitle {
   text-align: center;
 }
 
@@ -155,44 +150,25 @@ img {
   gap: 1.5rem;
 }
 
+
+/* large */
 @media screen and (max-width: 992px) {
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
-
-  .button {
-    padding: 1rem 1.75rem;
-  }
-
-  .button__icon {
-    width: 22px;
-    height: 22px;
-  }
 }
 
+/* medium */
 @media screen and (max-width: 768px) {
-  body {
-    margin: 0 0 var(--header-height) 0;
-  }
 
-  .section {
-    padding: 2rem 0 4rem;
-  }
-
-  .section-subtitle {
-    margin-bottom: var(--mb-3);
-  }
 }
 
 @media screen and (max-width: 576px) {
 }
 
+/* small */
 @media screen and (max-width: 350px) {
-  :root {
-    --big-font-size: 2.25rem;
-  }
-
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
