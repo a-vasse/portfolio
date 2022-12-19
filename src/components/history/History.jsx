@@ -3,9 +3,6 @@ import "./history.css"
 
 const History = () => {
   const [toggleState, setToggleState] = useState(1);
-  const toggleTab = (index) => {
-    setToggleState(index);
-  }
   return (
     <section className="history section">
       <h2 className="section-title">My History</h2>
@@ -15,11 +12,11 @@ const History = () => {
 
         <div className="history-tabs">
           <div className={toggleState === 1 ? "history-button history-active button--flex"
-            : "history-button button--flex"} onClick={() => toggleTab(1)}>
+            : "history-button button--flex"} onClick={() => setToggleState(1)}>
             <i className="fa-solid fa-briefcase history-icon"></i>{" "}Career
           </div>
           <div className={toggleState === 2 ? "history-button history-active button--flex"
-            : "history-button button--flex"} onClick={() => toggleTab(2)}>
+            : "history-button button--flex"} onClick={() => setToggleState(2)}>
             <i className="fa-solid fa-graduation-cap history-icon"></i>{" "}Education
           </div>
         </div>

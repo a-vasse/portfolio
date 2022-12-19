@@ -7,18 +7,14 @@ import Basic from './Basic';
 
 const BasicSkills = () => {
   return (
-    <div>
-      <section className="basicskills section" id="basicskills">
-        <h2 className="section-title">Skills</h2>
-        <span className="section-subtitle">My Technical Abilities</span>
-        <div className="basicskills-container container grid">
+    <section className="basicskills section" id="basicskills">
+      <div className="basicskills-container container grid">
         <Frontend />
         <Backend />
         <Tools />
         <Basic />
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

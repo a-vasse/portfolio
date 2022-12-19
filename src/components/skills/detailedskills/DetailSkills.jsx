@@ -7,10 +7,7 @@ import BasicModal from './BasicModal';
 
 const DetailSkills = () => {
   return (
-    <section className="skills section" id="skills">
-      <h2 className="section-title">Skills</h2>
-      <span className="section-subtitle">My Technical Abilities</span>
-
+    <section className="detailskills section" id="detailskills">
       <div className="detailskills-container container grid">
         <FrontendModal />
         <BackendModal />
