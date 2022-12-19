@@ -10,14 +10,14 @@ const Info = () => {
           <span className="about-subtitle">15+ Years Working</span>
         </div>
         <div className="about-box">
-          <i class="fa-regular fa-building about-icon"></i>
-          <h3 className="about-title">Industries</h3>
-          <span className="about-subtitle">Education, IT</span>
+          <i class="fa-solid fa-language about-icon"></i>
+          <h3 className="about-title">Languages</h3>
+          <span className="about-subtitle">English - Native<br></br>Japanese - N3</span>
         </div>
         <div className="about-box">
           <i class="fa-solid fa-location-dot about-icon"></i>
           <h3 className="about-title">Location</h3>
-          <span className="about-subtitle">Tokyo, Japan</span>
+          <span className="about-subtitle">Tokyo, Japan<br></br>PR Visa</span>
         </div>
       </div>
     </div>
