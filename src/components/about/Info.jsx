@@ -12,12 +12,12 @@ const Info = () => {
         <div className="about-box">
           <i class="fa-solid fa-language about-icon"></i>
           <h3 className="about-title">Languages</h3>
-          <span className="about-subtitle">English - Native<br></br>Japanese - N3</span>
+          <span className="about-subtitle">English - Native<br />Japanese - N3</span>
         </div>
         <div className="about-box">
           <i class="fa-solid fa-location-dot about-icon"></i>
           <h3 className="about-title">Location</h3>
-          <span className="about-subtitle">Tokyo, Japan<br></br>PR Visa</span>
+          <span className="about-subtitle">Tokyo, Japan<br />PR Visa</span>
         </div>
       </div>
     </div>
