@@ -8,13 +8,13 @@ const Services = () => {
         <div className="services-container container grid">
           <div className="services-content">
             <i className="icon"></i>
-            <h3 className="services-title"></h3>
+            <h3 className="services-title">Backend Developer</h3>
           </div>
           <span className="services-button">View Details{" "}<i className="fa-solid fa-arrow-right services-button"></i></span>
           <div className="services-modal">
             <div className="services-modal-content">
               <i className="fa-solid fa-xmark services-modal-close"></i>
-              <h3 className="services-modal-title"></h3>
+              <h3 className="services-modal-title">Backend Developer</h3>
               <p className="services-modal-description"></p>
               <ul className="services-modal-services grid">
                 <li className="services-modal-skills">
