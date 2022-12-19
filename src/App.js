@@ -5,6 +5,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import BasicSkills from './components/skills/BasicSkills';
 import DetailSkills from './components/skills/DetailSkills';
+import History from './components/history/History';
 
 const App = () => {
   return (
@@ -14,8 +15,9 @@ const App = () => {
     <main className="main">
       <Home />
       <About />
-      <DetailSkills />
       <BasicSkills />
+      <DetailSkills />
+      <History />
     </main>
     </>
   )
