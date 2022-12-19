@@ -3,8 +3,8 @@ import "./App.css";
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import About from './components/about/About';
-import Skills from './components/skills/Skills';
-import Services from './components/services/Services';
+import BasicSkills from './components/skills/BasicSkills';
+import DetailSkills from './components/skills/DetailSkills';
 
 const App = () => {
   return (
@@ -14,8 +14,8 @@ const App = () => {
     <main className="main">
       <Home />
       <About />
-      <Services />
-      <Skills />
+      <DetailSkills />
+      <BasicSkills />
     </main>
     </>
   )
