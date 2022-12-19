@@ -10,32 +10,32 @@ const BackendModal = () => {
       </div>
 
       <span className="services-button" onClick={() => setToggleState(1)}>
-        View More<i className="fa-solid fa-arrow-right services-button-icon"></i></span>
+        View Breakdown<i className="fa-solid fa-arrow-right services-button-icon"></i></span>
 
       <div className={toggleState === 1 ? "services-modal active-modal" : "services-modal"}>
         <div className="services-modal-content">
           <i onClick={() => setToggleState(0)} className="fa-solid fa-xmark services-modal-close"></i>
           <h3 className="services-modal-title">Backend Development</h3>
-          <p className="services-modal-description">Description</p>
+          <p className="services-modal-description">Experience with the following backend tech:</p>
           <ul className="services-modal-services grid">
             <li className="services-modal-service">
-              <i className="fa-solid fa-square-caret-right"></i>
-              <p className="services-modal-info">Information</p>
+              <i className="devicon-ruby-plain services-modal-icon"></i>
+              <p className="services-modal-info"><b>Ruby:</b> General-purpose programming language</p>
             </li>
 
             <li className="services-modal-service">
-              <i className="fa-solid fa-square-caret-right"></i>
-              <p className="services-modal-info">Information</p>
+              <i className="devicon-rails-plain services-modal-icon"></i>
+              <p className="services-modal-info"><b>Rails:</b> Server-side web application MVC framework</p>
             </li>
 
             <li className="services-modal-service">
-              <i className="fa-solid fa-square-caret-right"></i>
-              <p className="services-modal-info">Information</p>
+              <i className="devicon-mysql-plain services-modal-icon"></i>
+              <p className="services-modal-info"><b>MySQL:</b> Open-source relational database management</p>
             </li>
 
             <li className="services-modal-service">
-              <i className="fa-solid fa-square-caret-right"></i>
-              <p className="services-modal-info">Information</p>
+              <i className="devicon-postgresql-plain services-modal-icon"></i>
+              <p className="services-modal-info"><b>PostgreSQL:</b> RDBMS emphasizing extensibility.</p>
             </li>
           </ul>
         </div>
