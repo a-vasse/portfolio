@@ -29,14 +29,14 @@ const Header = () => {
             </li>
 
             <li className="nav-item">
-              <a href="#services" className="nav-link">
-                <i className="fa-solid fa-toolbox nav-icon"></i>Services
+              <a href="#portfolio" className="nav-link">
+                <i className="fa-solid fa-photo-film nav-icon"></i>Portfolio
               </a>
             </li>
 
             <li className="nav-item">
-              <a href="#portfolio" className="nav-link">
-                <i className="fa-solid fa-photo-film nav-icon"></i>Portfolio
+              <a href="#history" className="nav-link">
+                <i className="fa-solid fa-briefcase nav-icon"></i>History
               </a>
             </li>
 
