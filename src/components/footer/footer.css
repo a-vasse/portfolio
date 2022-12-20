@@ -54,12 +54,6 @@
   font-size: var(--smaller-font-size);
 }
 
-*:focus,
-*:active {
-  outline: none !important;
-  -webkit-tap-highlight-color: transparent;
-}
-
 .footer-icon-wrapper {
   display: inline-flex;
   list-style: none;
@@ -88,9 +82,6 @@
   background: #c7edfc;
 }
 
-
-/*=============== BREAKPOINTS ===============*/
-/* For large devices */
 @media screen and (max-width: 992px) {
   .footer-social-link {
       padding: 0.25rem;

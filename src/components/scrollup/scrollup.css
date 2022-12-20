@@ -1,0 +1,12 @@
+.scrollup {
+  position: fixed;
+  color: var(--title-color);
+  right: 2.5rem;
+  bottom: 3rem;
+  font-size: 2rem;
+  opacity: 0.8;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.4rem;
+  z-index: var(--z-tooltip);
+  transition: .4s;
+}
