@@ -1,0 +1,20 @@
+.photos-container {
+  width: 750px;
+}
+
+.photos-card {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 2rem;
+  border-radius: 1.5rem;
+  margin-bottom: var(--mb-3);
+}
+
+.enlarge-button {
+  position: absolute;
+  right: 1.3rem;
+  bottom: .5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--title-color);
+}
