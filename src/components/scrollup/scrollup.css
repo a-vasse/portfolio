@@ -10,3 +10,16 @@
   z-index: var(--z-tooltip);
   transition: .4s;
 }
+
+.scrollup:active {
+  animation: shootoff 1s;
+
+}
+
+
+
+@keyframes shootoff {
+  100% {
+    transform: translateY(-60rem);
+  }
+}

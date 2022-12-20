@@ -3,9 +3,12 @@ import "./scrollup.css";
 
 const ScrollUp = () => {
   return (
-    <a href="#" className="scrollup">
-      <i className="fa-solid fa-jet-fighter-up scrollup-icon"></i>
-    </a>
+    <div>
+      <a href="#" className="scrollup">
+        <i className="fa-solid fa-jet-fighter-up scrollup-icon"></i>
+      </a>
+      <i className="scrollup fa-brands fa-cloudversify"></i>
+    </div>
   );
 };
 
