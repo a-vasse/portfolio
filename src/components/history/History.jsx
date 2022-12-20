@@ -22,8 +22,8 @@ const History = () => {
         </div>
 
         <div className="history-sections">
-        <div className={toggleState === 1 ? "history-content history-content-active"
-            : "history-content"}>
+          <div className={toggleState === 1 ? "history-content history-content-active"
+              : "history-content"}>
             <div className="history-data">
               <div>
                 <h3 className="history-title">Branch and Instructor Manager</h3>
@@ -85,31 +85,32 @@ const History = () => {
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="history-data">
-            <div>
-              <h3 className="history-title">Data Entry Specialist</h3>
-              <span className="history-subtitle">Web Diversity</span>
-              <div className="history-calender">
-                <i className="fa-solid fa-calendar-days"></i>{" "}2004 - 2005
+
+            <div className="history-data">
+              <div>
+                <h3 className="history-title">Data Entry Specialist</h3>
+                <span className="history-subtitle">Web Diversity</span>
+                <div className="history-calender">
+                  <i className="fa-solid fa-calendar-days"></i>{" "}2004 - 2005
+                </div>
               </div>
-            </div>
 
-            <div>
-              <span className="history-rounder"></span>
-              <span className="history-line"></span>
+              <div>
+                <span className="history-rounder"></span>
+                <span className="history-line"></span>
+              </div>
             </div>
           </div>
 
           <div className={toggleState === 2 ? "history-content history-content-active"
-            : "history-content"}>
+              : "history-content"}>
             <div className="history-data">
               <div>
-                <h3 className="history-title">Title</h3>
-                <span className="history-subtitle">Institute</span>
+                <h3 className="history-title">Full Stack Web Development</h3>
+                <span className="history-subtitle">Le Wagon, Tokyo</span>
                 <div className="history-calender">
-                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}2022
                 </div>
               </div>
 
@@ -127,26 +128,11 @@ const History = () => {
                 <span className="history-line"></span>
               </div>
               <div>
-                <h3 className="history-title">Title</h3>
-                <span className="history-subtitle">Institute</span>
+                <h3 className="history-title">BSc Multimedia Computing</h3>
+                <span className="history-subtitle">DeMontfort University<br />Leicester, UK</span>
                 <div className="history-calender">
-                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}2001 - 2004
                 </div>
-              </div>
-            </div>
-
-            <div className="history-data">
-              <div>
-                <h3 className="history-title">Title</h3>
-                <span className="history-subtitle">Institute</span>
-                <div className="history-calender">
-                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
-                </div>
-              </div>
-
-              <div>
-                <span className="history-rounder"></span>
-                <span className="history-line"></span>
               </div>
             </div>
           </div>
