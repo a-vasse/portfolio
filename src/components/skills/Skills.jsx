@@ -8,7 +8,7 @@ const Skills = () => {
   const [toggleState, setToggleState] = useState(false);
   return (
     <section className="skills section" id="skills">
-      <h2 className="section-title">Skills</h2>
+      <h2 className="section-title">My Skills</h2>
       <span className="section-subtitle">My Technical Abilities</span>
       <div className="container">
 

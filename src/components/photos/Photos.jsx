@@ -12,7 +12,7 @@ import 'swiper/modules/pagination/pagination.min.css'
 
 const Photos = () => {
   return (
-    <section className="photos container section">
+    <section className="photos container section" id="photos">
       <h2 className="section-title">My Photos</h2>
       <span className="section-subtitle">I also like taking photos occasionally. Here are a few of them!</span>
 
@@ -21,8 +21,8 @@ const Photos = () => {
           clickable: true,
         }}
         breakpoints={{
-          576: { slidesPerView: 1},
-          768: {slidesPerView: 1, spaceBetween: 48 },
+          576: { slidesPerView: 2},
+          768: {slidesPerView: 3, spaceBetween: 24 },
         }}
         modules={[Pagination]}>
 

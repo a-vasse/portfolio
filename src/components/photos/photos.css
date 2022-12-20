@@ -1,20 +1,48 @@
 .photos-container {
-  width: 750px;
+  width: 1100px;
 }
 
 .photos-card {
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.5rem 2rem;
-  border-radius: 1.5rem;
+  padding: 1.5rem 1.5rem;
+  border-radius: 1rem;
+  margin-top: var(--mb-1);
   margin-bottom: var(--mb-3);
+  box-shadow: 0 0 12px #037fd1;
 }
 
 .enlarge-button {
   position: absolute;
-  right: 1.3rem;
-  bottom: .5rem;
-  font-size: 2rem;
+  right: 1rem;
+  bottom: 1rem;
+  font-size: 1.5rem;
   cursor: pointer;
   color: var(--title-color);
+}
+
+.photos-img {
+  width: 300px;
+  height: 400px;
+  margin-bottom: var(--mb-1);
+  border-radius: 0.75rem;
+}
+
+.photos-name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-25);
+}
+
+.photos-description {
+  font-size: var(--small-font-size);
+}
+
+/* Swiper Class */
+.swiper-pagination-bullet {
+  background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--title-color) !important;
 }

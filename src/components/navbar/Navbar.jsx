@@ -41,7 +41,13 @@ const Header = () => {
             </li>
 
             <li className="nav-item">
-              <a href="#contact" className="nav-link">
+              <a href="#photos" className="nav-link">
+              <i className="fa-regular fa-image nav-icon"></i>Photos
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a href="#photos" className="nav-link">
                 <i className="fa-regular fa-envelope nav-icon"></i>Contact
               </a>
             </li>
