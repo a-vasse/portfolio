@@ -7,6 +7,7 @@ import Skills from './components/skills/Skills';
 import History from './components/history/History';
 import Photos from './components/photos/Photos';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <History />
       <Photos />
       <Contact />
+      <Footer />
     </main>
     </>
   )
