@@ -133,7 +133,7 @@ img {
 .section-subtitle {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .section-title,

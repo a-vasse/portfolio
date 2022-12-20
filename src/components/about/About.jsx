@@ -18,7 +18,7 @@ const About = () => {
           <p className="about-description">Born in the UK, and living in Japan for over
           a decade, I have made a gradual transition into web development, focusing on both front and back
           end. I welcome you to take a look at my resume, skill set and projects I have worked on.</p>
-          <a download="" href={CV} className="button button--flex">Download Resume<i class="fa-regular fa-file-lines"></i></a>
+          <a download="" href={CV} className="button button--flex">Download Resume<i className="fa-regular fa-file-lines"></i></a>
         </div>
       </div>
     </div>

@@ -29,7 +29,7 @@ const History = () => {
                 <h3 className="history-title">Title 1</h3>
                 <span className="history-subtitle">Institute 1</span>
                 <div className="history-calender">
-                  <i class="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
                 </div>
               </div>
 
@@ -50,7 +50,7 @@ const History = () => {
                 <h3 className="history-title">Title 2</h3>
                 <span className="history-subtitle">Institute 2</span>
                 <div className="history-calender">
-                  <i class="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ const History = () => {
                 <h3 className="history-title">Title 3</h3>
                 <span className="history-subtitle">Institute 3</span>
                 <div className="history-calender">
-                  <i class="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
                 </div>
               </div>
 
@@ -81,7 +81,7 @@ const History = () => {
                 <h3 className="history-title">Title 4</h3>
                 <span className="history-subtitle">Institute 4</span>
                 <div className="history-calender">
-                  <i class="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ const History = () => {
                 <h3 className="history-title">Title</h3>
                 <span className="history-subtitle">Institute</span>
                 <div className="history-calender">
-                  <i class="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
                 </div>
               </div>
 
@@ -115,7 +115,7 @@ const History = () => {
                 <h3 className="history-title">Title</h3>
                 <span className="history-subtitle">Institute</span>
                 <div className="history-calender">
-                  <i class="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
                 </div>
               </div>
             </div>
@@ -125,7 +125,7 @@ const History = () => {
                 <h3 className="history-title">Title</h3>
                 <span className="history-subtitle">Institute</span>
                 <div className="history-calender">
-                  <i class="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
                 </div>
               </div>
 

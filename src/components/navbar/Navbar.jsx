@@ -47,10 +47,10 @@ const Header = () => {
             </li>
           </ul>
 
-          <i class="fa-solid fa-xmark nav-close" onClick={() => showMenu(!Toggle)}></i>
+          <i className="fa-solid fa-xmark nav-close" onClick={() => showMenu(!Toggle)}></i>
         </div>
         <div className="nav-toggle" onClick={() => showMenu(!Toggle)}>
-          <i class="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars"></i>
         </div>
       </nav>
     </header>

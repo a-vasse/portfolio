@@ -7,14 +7,12 @@ import BasicModal from './BasicModal';
 
 const DetailSkills = () => {
   return (
-    <section className="detailskills section" id="detailskills">
       <div className="detailskills-container container grid">
         <FrontendModal />
         <BackendModal />
         <ToolsModal />
         <BasicModal />
       </div>
-    </section>
   );
 };
 

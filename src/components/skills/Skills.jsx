@@ -1,24 +1,28 @@
 import React, { useState } from 'react';
 import DetailSkills from './detailedskills/DetailSkills';
 import BasicSkills from './basicskills/BasicSkills';
+import Switch from "./switch/Switch";
 import "./skills.css";
 
 const Skills = () => {
   const [toggleState, setToggleState] = useState(1);
   return (
-    <section className="skills section" id="basicskills">
+    <section className="skills section" id="skills">
       <h2 className="section-title">Skills</h2>
       <span className="section-subtitle">My Technical Abilities</span>
-      <div className="skills-container container grid">
+      <div className="container">
 
-        <div className="history-tabs">
-          <div className={toggleState === 1 ? "history-button history-active button--flex"
-            : "history-button button--flex"} onClick={() => setToggleState(1)}>
-            <i className="fa-solid fa-briefcase history-icon"></i>{" "}Basic
+        <div className="skills-tabs">
+          <div className={toggleState === 1 ? "skills-button history-active button--flex"
+            : "skills-button button--flex"} onClick={() => setToggleState(1)}>
+            <span>Basic</span>
           </div>
-          <div className={toggleState === 2 ? "history-button history-active button--flex"
-            : "history-button button--flex"} onClick={() => setToggleState(2)}>
-            <i className="fa-solid fa-graduation-cap history-icon"></i>{" "}Detailed
+
+          <Switch />
+
+          <div className={toggleState === 2 ? "skills-button history-active button--flex"
+            : "skills-button button--flex"} onClick={() => setToggleState(2)}>
+            <span>Detailed</span>
           </div>
         </div>
 

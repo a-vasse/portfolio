@@ -30,7 +30,7 @@ const FrontendModal = () => {
 
             <li className="detailskills-modal-detailskill">
               <i className="fa-brands fa-square-js detailskills-modal-icon"></i>
-              <p className="detailskills-modal-info"><b>Javascript:</b> Client side programming language</p>
+              <p className="detailskills-modal-info"><b>Javascript{":"}</b> Client side programming language</p>
             </li>
 
             <li className="detailskills-modal-detailskill">
