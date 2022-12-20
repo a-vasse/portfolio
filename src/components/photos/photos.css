@@ -1,5 +1,5 @@
 .photos-container {
-  width: 1100px;
+  width: initial;
 }
 
 .photos-card {
@@ -12,18 +12,8 @@
   box-shadow: 0 0 12px #037fd1;
 }
 
-.enlarge-button {
-  position: absolute;
-  right: 1rem;
-  bottom: 1rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: var(--title-color);
-}
-
 .photos-img {
-  width: 300px;
-  height: 400px;
+  width: 450px;
   margin-bottom: var(--mb-1);
   border-radius: 0.75rem;
 }
@@ -34,10 +24,6 @@
   margin-bottom: var(--mb-0-25);
 }
 
-.photos-description {
-  font-size: var(--small-font-size);
-}
-
 /* Swiper Class */
 .swiper-pagination-bullet {
   background-color: var(--text-color) !important;
@@ -45,4 +31,11 @@
 
 .swiper-pagination-bullet-active {
   background-color: var(--title-color) !important;
+}
+
+
+@media screen and (max-width: 720) {
+  .photos-container {
+    width: initial;
+  }
 }

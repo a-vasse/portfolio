@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./photos.css"
 import { Data } from './Data';
 
@@ -21,8 +21,11 @@ const Photos = () => {
           clickable: true,
         }}
         breakpoints={{
-          576: { slidesPerView: 2},
-          768: {slidesPerView: 3, spaceBetween: 24 },
+
+          450: {
+            slidesPerView: 2,
+            spaceBetween: 24,
+          },
         }}
         modules={[Pagination]}>
 
@@ -31,7 +34,6 @@ const Photos = () => {
             <SwiperSlide className="photos-card" key={id}>
               <img src={image} alt="" className="photos-img"/>
               <h3 className="photos-name">{title}</h3>
-              <i className="enlarge-button fa-solid fa-magnifying-glass-plus"></i>
             </SwiperSlide>
           )
         })}

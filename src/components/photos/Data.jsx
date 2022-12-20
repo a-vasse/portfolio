@@ -1,69 +1,69 @@
-import Image01 from "../../assets/photos/photo01.png";
-import Image02 from "../../assets/photos/photo02.png";
-import Image03 from "../../assets/photos/photo03.png";
-import Image04 from "../../assets/photos/photo04.png";
-import Image05 from "../../assets/photos/photo05.png";
-import Image06 from "../../assets/photos/photo06.png";
-import Image07 from "../../assets/photos/photo07.png";
-import Image08 from "../../assets/photos/photo08.png";
-import Image09 from "../../assets/photos/photo09.png";
-import Image10 from "../../assets/photos/photo10.png";
-import Image11 from "../../assets/photos/photo11.png";
+import Photo01 from "../../assets/photos/photo01.png";
+import Photo02 from "../../assets/photos/photo02.png";
+import Photo03 from "../../assets/photos/photo03.png";
+import Photo04 from "../../assets/photos/photo04.png";
+import Photo05 from "../../assets/photos/photo05.png";
+import Photo06 from "../../assets/photos/photo06.png";
+import Photo07 from "../../assets/photos/photo07.png";
+import Photo08 from "../../assets/photos/photo08.png";
+import Photo09 from "../../assets/photos/photo09.png";
+import Photo10 from "../../assets/photos/photo10.png";
+import Photo11 from "../../assets/photos/photo11.png";
 
 export const Data = [
   {
     id: 1,
-    image: Image01,
+    image: Photo01,
     title: "Hawaii Sunset 1",
   },
   {
     id: 2,
-    image: Image02,
+    image: Photo02,
     title: "Hawaii Open Hills",
   },
   {
     id: 3,
-    image: Image03,
+    image: Photo03,
     title: "Fine Dining",
   },
   {
     id: 4,
-    image: Image04,
+    image: Photo04,
     title: "Jellyfish",
   },
   {
     id: 5,
-    image: Image05,
+    image: Photo05,
     title: "Shirakawago",
   },
   {
     id: 6,
-    image: Image06,
+    image: Photo06,
     title: "Hawaii Sunset 2",
   },
   {
     id: 7,
-    image: Image07,
+    image: Photo07,
     title: "Nikko - Hallway",
   },
   {
     id: 8,
-    image: Image08,
+    image: Photo08,
     title: "Yamagata Mountains",
   },
   {
     id: 9,
-    image: Image09,
+    image: Photo09,
     title: "Gundam Factory",
   },
   {
     id: 10,
-    image: Image10,
+    image: Photo10,
     title: "Arashiyama Bamboo",
   },
   {
     id: 11,
-    image: Image11,
+    image: Photo11,
     title: "Ginzan Onsen",
   },
 ];
