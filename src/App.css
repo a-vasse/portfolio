@@ -94,6 +94,7 @@ button {
 
 .button {
   display: inline-block;
+  justify-content: center;
   background-color: var(--title-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
@@ -200,6 +201,7 @@ img {
     width: 140px;
     height: 40px;
     font-size: 14px;
+    border-radius: 0.5rem;
   }
 }
 
