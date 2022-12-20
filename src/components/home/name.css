@@ -10,7 +10,7 @@ text {
   0% {
     stroke-dasharray: 0 50%;
     stroke-dashoffset:  20%;
-    fill:hsl(204, 100%, 50%)
+    fill:#0099ff
 
   }
 

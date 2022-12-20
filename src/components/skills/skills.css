@@ -11,3 +11,8 @@
   margin: 0 var(--mb-1);
   cursor: pointer;
 }
+
+.skills-active {
+  color: var(--text-color-hover);
+  transition: 0.3s;
+}

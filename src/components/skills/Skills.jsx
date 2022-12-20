@@ -5,7 +5,7 @@ import Switch from "./switch/Switch";
 import "./skills.css";
 
 const Skills = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(false);
   return (
     <section className="skills section" id="skills">
       <h2 className="section-title">Skills</h2>
@@ -13,25 +13,28 @@ const Skills = () => {
       <div className="container">
 
         <div className="skills-tabs">
-          <div className={toggleState === 1 ? "skills-button history-active button--flex"
+          <div className={toggleState === false ? "skills-button skills-active button--flex"
             : "skills-button button--flex"} onClick={() => setToggleState(1)}>
             <span>Basic</span>
           </div>
 
-          <Switch />
+          <Switch
+            isOn={toggleState}
+            handleToggle={() => setToggleState(!toggleState)}
+          />
 
-          <div className={toggleState === 2 ? "skills-button history-active button--flex"
+          <div className={toggleState === true ? "skills-button skills-active button--flex"
             : "skills-button button--flex"} onClick={() => setToggleState(2)}>
             <span>Detailed</span>
           </div>
         </div>
 
         <div className="history-sections">
-          <div className={toggleState === 1 ? "history-content history-content-active"
+          <div className={toggleState === false ? "history-content history-content-active"
               : "history-content"}>
             <BasicSkills />
           </div>
-          <div className={toggleState === 2 ? "history-content history-content-active"
+          <div className={toggleState === true ? "history-content history-content-active"
               : "history-content"}>
             <DetailSkills />
           </div>
