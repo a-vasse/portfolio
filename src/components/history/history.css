@@ -1,5 +1,5 @@
 .history-container {
-  max-width: 768px;
+  max-width: 920px;
 }
 
 .history-tabs {
@@ -11,13 +11,21 @@
 .history-button {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  color: var(--title-color);
+  color: var(--title-color-dark);
   margin: 0 var(--mb-1);
   cursor: pointer;
+  display: inline-block;
+  background-color: var(--title-color);
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+  gap: 8px;
+  box-shadow: var(--box-shadow);
 }
 
 .history-button:hover {
-  color: var(--title-color-dark);
+  color: var(--text-color-hover);
+  transition: 0.3s;
 }
 
 .history-icon {
@@ -26,7 +34,7 @@
 }
 
 .history-active {
-  color: var(--title-color-dark);
+  color: var(--container-color);
 }
 
 .history-sections {

@@ -26,10 +26,10 @@ const History = () => {
             : "history-content"}>
             <div className="history-data">
               <div>
-                <h3 className="history-title">Title 1</h3>
-                <span className="history-subtitle">Institute 1</span>
+                <h3 className="history-title">Branch and Instructor Manager</h3>
+                <span className="history-subtitle">Gaba Corporation</span>
                 <div className="history-calender">
-                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}2015 - 2018 / 2020 - 2022
                 </div>
               </div>
 
@@ -47,20 +47,20 @@ const History = () => {
                 <span className="history-line"></span>
               </div>
               <div>
-                <h3 className="history-title">Title 2</h3>
-                <span className="history-subtitle">Institute 2</span>
+                <h3 className="history-title">Business Integration Planner & Branch Manager</h3>
+                <span className="history-subtitle">Gaba Corporation</span>
                 <div className="history-calender">
-                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}2018 - 2020
                 </div>
               </div>
             </div>
 
             <div className="history-data">
               <div>
-                <h3 className="history-title">Title 3</h3>
-                <span className="history-subtitle">Institute 3</span>
+                <h3 className="history-title">English Instructor</h3>
+                <span className="history-subtitle">Gaba Corporation</span>
                 <div className="history-calender">
-                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}2007 - 2015
                 </div>
               </div>
 
@@ -78,12 +78,27 @@ const History = () => {
                 <span className="history-line"></span>
               </div>
               <div>
-                <h3 className="history-title">Title 4</h3>
-                <span className="history-subtitle">Institute 4</span>
+                <h3 className="history-title">English Instructor</h3>
+                <span className="history-subtitle">Nova Corporation</span>
                 <div className="history-calender">
-                  <i className="fa-solid fa-calendar-days"></i>{" "}Time
+                  <i className="fa-solid fa-calendar-days"></i>{" "}2005 - 2007
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div className="history-data">
+            <div>
+              <h3 className="history-title">Data Entry Specialist</h3>
+              <span className="history-subtitle">Web Diversity</span>
+              <div className="history-calender">
+                <i className="fa-solid fa-calendar-days"></i>{" "}2004 - 2005
+              </div>
+            </div>
+
+            <div>
+              <span className="history-rounder"></span>
+              <span className="history-line"></span>
             </div>
           </div>
 
