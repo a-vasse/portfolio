@@ -21,6 +21,7 @@
   font-weight: var(--font-medium);
   gap: 8px;
   box-shadow: var(--box-shadow);
+  width: 220px;
 }
 
 .history-button:hover {
@@ -115,8 +116,26 @@
 }
 
 /* small */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
   .history-data {
       gap: 0.5rem;
+  }
+
+  .history-button {
+    padding: 0.7rem 1rem;
+    width: 180px;
+    height: 40px;
+    font-size: 12px;
+    gap: 1px;
+  }
+
+  .history-icon {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .history-icon {
+    display: none;
   }
 }
