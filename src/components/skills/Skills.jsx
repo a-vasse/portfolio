@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import DetailSkills from './detailedskills/DetailSkills';
 import BasicSkills from './basicskills/BasicSkills';
-import Switch from "./switch/Switch";
+import Switch from './switch/Switch';
 import "./skills.css";
 
 const Skills = () => {
@@ -14,17 +14,14 @@ const Skills = () => {
 
         <div className="skills-tabs">
           <div className={toggleState === false ? "skills-button skills-active button--flex"
-            : "skills-button button--flex"} onClick={() => setToggleState(1)}>
+            : "skills-button button--flex"}>
             <span>Basic</span>
           </div>
 
-          <Switch
-            isOn={toggleState}
-            handleToggle={() => setToggleState(!toggleState)}
-          />
+          <Switch isOn={toggleState} handleToggle={() => setToggleState(!toggleState)}/>
 
           <div className={toggleState === true ? "skills-button skills-active button--flex"
-            : "skills-button button--flex"} onClick={() => setToggleState(2)}>
+            : "skills-button button--flex"}>
             <span>Detailed</span>
           </div>
         </div>
