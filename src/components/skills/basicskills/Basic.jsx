@@ -24,6 +24,12 @@ const Basic = () => {
               <h3 className="basicskills-name">Node.js</h3>
             </div>
           </div>
+          <div className="basicskills-data">
+            <i className="devicon-cplusplus-plain"></i>
+            <div>
+              <h3 className="basicskills-name">C++</h3>
+            </div>
+          </div>
         </div>
       </div>
     </div>
