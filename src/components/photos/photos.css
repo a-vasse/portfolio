@@ -33,9 +33,3 @@
   background-color: var(--title-color) !important;
 }
 
-
-@media screen and (max-width: 720) {
-  .photos-container {
-    width: initial;
-  }
-}

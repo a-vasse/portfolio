@@ -20,21 +20,15 @@ const Photos = () => {
         pagination={{
           clickable: true,
         }}
-        breakpoints={{
-
-          450: {
-            slidesPerView: 2,
-            spaceBetween: 24,
-          },
-        }}
+        breakpoints={{ 450: { slidesPerView: 2, spaceBetween: 24 } }}
         modules={[Pagination]}>
 
         {Data.map(({id, image, title}) => {
           return (
-            <SwiperSlide className="photos-card" key={id}>
-              <img src={image} alt="" className="photos-img"/>
-              <h3 className="photos-name">{title}</h3>
-            </SwiperSlide>
+          <SwiperSlide className="photos-card" key={id}>
+            <img src={image} alt="" className="photos-img"/>
+            <h3 className="photos-name">{title}</h3>
+          </SwiperSlide>
           )
         })}
       </Swiper>
