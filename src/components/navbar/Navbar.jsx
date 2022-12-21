@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./navbar.css";
+import "./scrollup.css";
 
 const Header = () => {
   window.addEventListener("scroll", function () {
@@ -8,10 +9,17 @@ const Header = () => {
     else header.classList.remove("scroll-header")
   })
 
+  window.addEventListener("scroll", function () {
+    const scrollUp = document.querySelector(".scrollup");
+    if (this.scrollY >= 200) scrollUp.classList.add("show-scroll");
+    else scrollUp.classList.remove("show-scroll")
+  })
+
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
 
   return (
+    <div>
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav-logo">Vasse</a>
@@ -75,6 +83,13 @@ const Header = () => {
         </div>
       </nav>
     </header>
+
+    <div>
+    <a href="#home" className="scrollup">
+      <i onClick={() => setActiveNav('#home')} className="fa-solid fa-angles-up scrollup-icon"></i>
+    </a>
+    </div>
+  </div>
   )
 }
 
