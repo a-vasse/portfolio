@@ -21,7 +21,7 @@ const Footer = () => {
           </ul>
         </div>
         <span className="footer-copy">
-        <i class="fa-regular fa-copyright"></i>{" "}Alexander Vasse. All rights reserved.
+        <i className="fa-regular fa-copyright"></i>{" "}Alexander Vasse. All rights reserved.
         </span>
       </div>
     </footer>
