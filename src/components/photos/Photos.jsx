@@ -13,7 +13,7 @@ import 'swiper/modules/pagination/pagination.min.css'
 const Photos = () => {
   return (
     <section className="photos container section" id="photos">
-      <h2 className="section-title">My Photos</h2>
+      <h2 className="section-title">Photos</h2>
       <span className="section-subtitle">I also like taking photos occasionally. Here are a few of them!</span>
 
       <Swiper className="photos-container" loop={true} grabCursor={true} spaceBetween={24}

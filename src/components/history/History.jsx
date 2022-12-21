@@ -5,7 +5,7 @@ const History = () => {
   const [toggleState, setToggleState] = useState(1);
   return (
     <section className="history section" id="history">
-      <h2 className="section-title">My History</h2>
+      <h2 className="section-title">History</h2>
       <span className="section-subtitle">My career and education</span>
 
       <div className="history-container container">

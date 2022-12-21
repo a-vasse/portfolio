@@ -8,6 +8,7 @@ import History from './components/history/History';
 import Photos from './components/photos/Photos';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Projects from './components/projects/Projects';
 
 const App = () => {
   return (
@@ -18,10 +19,10 @@ const App = () => {
       <Home />
       <About />
       <Skills />
+      <Projects />
       <History />
       <Photos />
       <Contact />
-
     </main>
 
     <Footer />

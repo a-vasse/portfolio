@@ -6,11 +6,9 @@ import Info from "./Info";
 
 const About = () => {
   return (
-    <div>
-      <section className="about section" id="about">
-        <h2 className="section-title">About Me</h2>
-        <span className="section-subtitle">My Introduction</span>
-      </section>
+    <section className="about section" id="about">
+      <h2 className="section-title">About</h2>
+      <span className="section-subtitle">An introduction of myself</span>
       <div className="about-container container grid">
         <img src={AboutImg} alt="About" className="about-img" />
         <div className="about-data">
@@ -21,7 +19,7 @@ const About = () => {
           <a download="" href={CV} className="button button--flex">Download Resume<i className="fa-regular fa-file-lines"></i></a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
