@@ -23,18 +23,6 @@ export const projectsData = [
     title: "Fitbook",
     category: "individual",
   },
-  {
-    id: 4,
-    image: Work4,
-    title: "Project 4",
-    category: "individual",
-  },
-  {
-    id: 5,
-    image: Work5,
-    title: "Project 5",
-    category: "individual",
-  },
 ];
 
 // projects

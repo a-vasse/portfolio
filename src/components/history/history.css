@@ -9,12 +9,13 @@
 }
 
 .history-button {
+  display: flex;
+  justify-content: center;
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   color: var(--title-color-dark);
   margin: 0 var(--mb-1);
   cursor: pointer;
-  display: inline-block;
   background-color: var(--title-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;

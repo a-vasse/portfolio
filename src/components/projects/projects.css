@@ -1,5 +1,128 @@
 .projects-container {
-  gap: 3rem;
-  grid-template-columns: repeat(2, max-content);
+  gap: 1rem;
+  grid-template-columns: repeat(3, max-content);
   justify-content: center;
+}
+
+.projects-filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.75rem;
+  margin-bottom: var(--mb-2);
+}
+
+.projects-item {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  color: var(--title-color-dark);
+  padding: 0.25rem 0.75rem;
+  background-color: var(--title-color);
+  font-weight: var(--font-medium);
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  width: 110px;
+  box-shadow: var(--box-shadow);
+}
+
+.projects-item:hover {
+  background-color: var(--title-color);
+  color: var(--text-color-hover);
+  transition: 0.3s;
+}
+
+.project-card {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 12px #037fd1;
+}
+
+.project-img {
+  width: 295px;
+  border-radius: 1rem;
+  margin-bottom: var(--mb-1);
+}
+
+.project-title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-5);
+}
+
+.project-button {
+  width: max-content;
+  color: var(--text-color);
+  font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+}
+
+.project-button-icon {
+  font-size: 1rem;
+  transition: 0.4s;
+}
+
+.project-button:hover .project-button-icon {
+  transform: translateX(0.25rem);
+}
+
+.active-work {
+  background-color: var(--title-color);
+  color: var(--container-color);
+}
+
+/* large */
+@media screen and (max-width: 992px) {
+  .projects-container {
+    gap: 1.25rem;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+
+  .project-img {
+    margin-bottom: 0.75rem;
+  }
+
+  .project-title {
+    margin-bottom: 0.25rem;
+  }
+}
+
+/* medium */
+@media screen and (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: max-content;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .projects-item {
+    font-size: var(--small-font-size);
+  }
+
+  .projects-filters {
+    column-gap: 0.25rem;
+  }
+
+  .projects-item {
+    padding: 0.25rem 0.75rem;
+    width: 80px;
+  }
 }
