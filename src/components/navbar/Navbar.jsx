@@ -9,6 +9,8 @@ const Header = () => {
   })
 
   const [Toggle, showMenu] = useState(false);
+  const [activeNav, setActiveNav] = useState("#home");
+
   return (
     <header className="header">
       <nav className="nav container">
@@ -17,43 +19,50 @@ const Header = () => {
         <div className={Toggle ? "nav-menu show-menu" : "nav-menu"}>
           <ul className="nav-list grid">
             <li className="nav-item">
-              <a href="#home" className="nav-link active-link">
+              <a href="#home" onClick={() => setActiveNav('#home')}
+                className={activeNav === "#home" ? "nav-link active-link" : "nav-link"}>
                 <i className="fa-solid fa-earth-asia nav-icon"></i>Home
               </a>
             </li>
 
             <li className="nav-item">
-              <a href="#about" className="nav-link">
+              <a href="#about" onClick={() => setActiveNav('#about')}
+                className={activeNav === "#about" ? "nav-link active-link" : "nav-link"}>
                 <i className="fa-solid fa-user nav-icon"></i>About
               </a>
             </li>
 
             <li className="nav-item">
-              <a href="#skills" className="nav-link">
+              <a href="#skills" onClick={() => setActiveNav('#skills')}
+                className={activeNav === "#skills" ? "nav-link active-link" : "nav-link"}>
                 <i className="fa-solid fa-screwdriver-wrench nav-icon"></i>Skills
               </a>
             </li>
 
             <li className="nav-item">
-              <a href="#portfolio" className="nav-link">
+              <a href="#portfolio" onClick={() => setActiveNav('#portfolio')}
+                className={activeNav === "#portfolio" ? "nav-link active-link" : "nav-link"}>
                 <i className="fa-solid fa-photo-film nav-icon"></i>Portfolio
               </a>
             </li>
 
             <li className="nav-item">
-              <a href="#history" className="nav-link">
+              <a href="#history" onClick={() => setActiveNav('#history')}
+                className={activeNav === "#history" ? "nav-link active-link" : "nav-link"}>
                 <i className="fa-solid fa-briefcase nav-icon"></i>History
               </a>
             </li>
 
             <li className="nav-item">
-              <a href="#photos" className="nav-link">
+              <a href="#photos" onClick={() => setActiveNav('#photos')}
+                className={activeNav === "#photos" ? "nav-link active-link" : "nav-link"}>
               <i className="fa-regular fa-image nav-icon"></i>Photos
               </a>
             </li>
 
             <li className="nav-item">
-              <a href="#photos" className="nav-link">
+              <a href="#contact" onClick={() => setActiveNav('#contact')}
+                className={activeNav === "#contact" ? "nav-link active-link" : "nav-link"}>
                 <i className="fa-regular fa-envelope nav-icon"></i>Contact
               </a>
             </li>

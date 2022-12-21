@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./scrollup.css";
 
 const ScrollUp = () => {
@@ -7,10 +7,11 @@ const ScrollUp = () => {
     if (this.scrollY >= 200) scrollUp.classList.add("show-scroll");
     else scrollUp.classList.remove("show-scroll")
   })
+  const [activeNav, setActiveNav] = useState("#home");
   return (
     <div>
-      <a href="#" className="scrollup">
-        <i className="fa-solid fa-angles-up scrollup-icon"></i>
+      <a href="#home" className="scrollup">
+        <i onClick={() => setActiveNav('#home')} className="fa-solid fa-angles-up scrollup-icon"></i>
       </a>
     </div>
   );

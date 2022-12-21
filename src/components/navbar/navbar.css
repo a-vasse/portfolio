@@ -41,6 +41,8 @@
 
 .active-link {
     color: var(--title-color-dark);
+    text-decoration: underline;
+
 }
 
 .nav-link:hover {
