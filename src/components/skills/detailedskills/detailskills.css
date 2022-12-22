@@ -8,7 +8,7 @@
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--container-color);
-  padding: 6rem 0 2rem 2.5rem;
+  padding: 4rem 0 2rem 2.5rem;
   box-shadow: var(--box-shadow);
   border-radius: 0.75rem;
 }
@@ -136,8 +136,8 @@
 }
 
 @media screen and (max-width: 576px) {
-  .detailskills-modal-content {
-      padding: 4.5rem 1.5rem 2.5rem;
+  .detailskills-container {
+    grid-template-columns: repeat(1, 218px);
   }
 
   .detailskills-modal-description {
@@ -152,6 +152,6 @@
   }
 
   .detailskills-content {
-      padding-right: 6rem;
+      padding: 2rem 0 2rem 1.5rem;
   }
 }
