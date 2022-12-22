@@ -14,14 +14,15 @@ const Project = () => {
     }
     else {
       const newProjects = projectsData.filter((project) => {
-        return project.category === item.name;
+        return project.category.toLowerCase() === item.name;
       });
       setProjects(newProjects);
     }
   }, [item]);
 
   const handleClick = (event, index) => {
-    setItem({name: event.target.textContent });
+    setItem({name: event.target.textContent.toLowerCase() });
+    setActive(index);
   };
 
   return (
@@ -33,7 +34,7 @@ const Project = () => {
               handleClick(event, index);
             }}
 
-            className="projects-item" key={index} >{item.name}</span>
+            className={`${active === index ? "active-work" : ""} projects-item`} key={index} >{item.name}</span>
           );
         })}
       </div>
