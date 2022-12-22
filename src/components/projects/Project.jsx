@@ -7,7 +7,6 @@ const Project = () => {
   const [item, setItem] = useState({name: "all"});
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
-
   useEffect(() => {
     if(item.name === "all") {
       setProjects(projectsData);

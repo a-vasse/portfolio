@@ -29,7 +29,6 @@ export const projectsData = [
   },
 ];
 
-// projects
 export const projectsNav = [
   {name: "all" },
   {name: "team" },
