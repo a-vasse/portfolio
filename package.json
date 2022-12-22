@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "http://a-vasse.github.io/portfolio",
+  "homepage": "http://www.alexvasse.com",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
