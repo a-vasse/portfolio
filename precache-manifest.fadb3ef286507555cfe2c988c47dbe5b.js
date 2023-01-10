@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "a3e892c281db777d40cc",
-    "url": "/static/css/main.e863fdfe.chunk.css"
+    "revision": "8ea85e68e40cdb61a912",
+    "url": "/static/css/main.c289d6a0.chunk.css"
   },
   {
-    "revision": "a3e892c281db777d40cc",
-    "url": "/static/js/main.794f6836.chunk.js"
+    "revision": "8ea85e68e40cdb61a912",
+    "url": "/static/js/main.90ea7e19.chunk.js"
   },
   {
-    "revision": "1ebb35386244e1fc128c",
-    "url": "/static/js/runtime~main.3a09ece2.js"
+    "revision": "ec9bde3de3ce022a62b3",
+    "url": "/static/js/runtime~main.5fa5b93e.js"
   },
   {
-    "revision": "ce9a3cefed55440f0b80",
+    "revision": "78d8186323c47c819d97",
     "url": "/static/css/2.ffb23492.chunk.css"
   },
   {
-    "revision": "ce9a3cefed55440f0b80",
-    "url": "/static/js/2.f1e37e72.chunk.js"
+    "revision": "78d8186323c47c819d97",
+    "url": "/static/js/2.f2d8ca3d.chunk.js"
   },
   {
-    "revision": "0d238a3a755f2811deea",
-    "url": "/static/js/3.d90efc57.chunk.js"
+    "revision": "25de48b477b357511a94",
+    "url": "/static/js/3.83995665.chunk.js"
   },
   {
     "revision": "e3806983bf2a842549dcea70916ae9e0",
@@ -92,11 +92,39 @@ self.__precacheManifest = [
     "url": "/static/media/BarkerThumb.2450cf8e.png"
   },
   {
+    "revision": "bc8a727338c147c4c77b7b945d91e593",
+    "url": "/static/media/JSCanvasThumb.bc8a7273.png"
+  },
+  {
+    "revision": "6fdb42ffbfa5e4b778f4464bc3a7391b",
+    "url": "/static/media/JSClockThumb.6fdb42ff.png"
+  },
+  {
+    "revision": "80e9aa8d62dc706ce5e1bd3766574c42",
+    "url": "/static/media/JSKeyboardThumb.80e9aa8d.png"
+  },
+  {
+    "revision": "b830d9351abd91302201b702cf3a47e7",
+    "url": "/static/media/JSMovieDirThumb.b830d935.png"
+  },
+  {
+    "revision": "5f0b8426f2b422195fa70f1e0681fd72",
+    "url": "/static/media/JSPlayerThumb.5f0b8426.png"
+  },
+  {
+    "revision": "c716b9e317c8872d3271b6b19915c10a",
+    "url": "/static/media/KonamiCodeThumb.c716b9e3.png"
+  },
+  {
+    "revision": "8e163d166c7a226fbffae2521ff6e8ee",
+    "url": "/static/media/PortfolioThumb.8e163d16.png"
+  },
+  {
     "revision": "8f4193f09446831ced66a2d54da07474",
     "url": "/static/media/profile.8f4193f0.jpg"
   },
   {
-    "revision": "a47c338a5f9d7bc90765261edd892c33",
+    "revision": "2189403fa73dfff5be6468376ed1b5ba",
     "url": "/index.html"
   }
 ];
