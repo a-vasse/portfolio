@@ -18,8 +18,8 @@ export const projectsData = [
     description: "A simple, functional clock.",
     tools: "HTML/CSS, Javascript",
     category: "individual",
-    url: "https://fitbook-av.herokuapp.com",
-    gh: "https://github.com/a-vasse/rails-fitbook"
+    url: "https://a-vasse.github.io/javascript-clock/",
+    gh: "https://github.com/a-vasse/javascript-clock"
   },
   {
     id: 2,
@@ -28,8 +28,8 @@ export const projectsData = [
     description: "Look up movies by name or director.",
     tools: "HTML/CSS, Javascript",
     category: "individual",
-    url: "https://fitbook-av.herokuapp.com",
-    gh: "https://github.com/a-vasse/rails-fitbook"
+    url: "https://a-vasse.github.io/js-moviesdirectory/",
+    gh: "https://github.com/a-vasse/js-moviesdirectory"
   },
   {
     id: 3,
@@ -38,8 +38,8 @@ export const projectsData = [
     description: "Press a key, and a voice will sound it out!",
     tools: "HTML/CSS, Javascript",
     category: "individual",
-    url: "https://fitbook-av.herokuapp.com",
-    gh: "https://github.com/a-vasse/rails-fitbook"
+    url: "https://a-vasse.github.io/javascript-keyboard/",
+    gh: "https://github.com/a-vasse/javascript-keyboard"
   },
   {
     id: 4,
@@ -48,8 +48,8 @@ export const projectsData = [
     description: "Scratch built video player, featuring Neon Genesis Evangelion.",
     tools: "HTML/CSS, Javascript",
     category: "individual",
-    url: "https://fitbook-av.herokuapp.com",
-    gh: "https://github.com/a-vasse/rails-fitbook"
+    url: "https://a-vasse.github.io/js-videoplayer/",
+    gh: "https://github.com/a-vasse/js-videoplayer"
   },
   {
     id: 5,
@@ -58,8 +58,8 @@ export const projectsData = [
     description: "Have a bit of drawing fun.",
     tools: "HTML/CSS, Javascript",
     category: "individual",
-    url: "https://fitbook-av.herokuapp.com",
-    gh: "https://github.com/a-vasse/rails-fitbook"
+    url: "https://a-vasse.github.io/js-canvas/",
+    gh: "https://github.com/a-vasse/js-canvas"
   },
   {
     id: 6,
@@ -68,8 +68,8 @@ export const projectsData = [
     description: "Press the right buttons and see things happen!",
     tools: "HTML/CSS, Javascript",
     category: "individual",
-    url: "https://fitbook-av.herokuapp.com",
-    gh: "https://github.com/a-vasse/rails-fitbook"
+    url: "https://a-vasse.github.io/js-konami-code/",
+    gh: "https://github.com/a-vasse/js-konami-code"
   },
   {
     id: 7,
@@ -78,8 +78,8 @@ export const projectsData = [
     description: "This page! Written in React.js",
     tools: "HTML/CSS, React.js",
     category: "individual",
-    url: "https://fitbook-av.herokuapp.com",
-    gh: "https://github.com/a-vasse/rails-fitbook"
+    url: "alexvasse.com",
+    gh: "https://github.com/a-vasse/portfolio"
   },
   {
     id: 8,
