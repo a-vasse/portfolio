@@ -7,9 +7,9 @@ export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Substracked - Online Subscription Management",
+    title: "Substracked - Subscription Management",
     category: "team",
-    description: "Manage your subscription services effectively and save money.",
+    description: "Manage your online subscription services effectively and save money.",
     tools: "HTML/Sass, Stimulus/Javascript, Ruby on Rails, Devise, Pundit, APIs, Cloudinary",
     url: "http://www.substracked.com",
     gh: "https://github.com/a-vasse/substracked"
