@@ -5,6 +5,8 @@ const ProjectItems = ({item}) => {
     <div className="project-card" key={item.id}>
       <img src={item.image} alt="" className="project-img"/>
       <h3 className="project-title">{item.title}</h3>
+      <p className="project-details">{item.description}</p>
+      <p className="project-details"><strong>Tools: </strong>{item.tools}</p>
       <div className="project-links">
         <a href={item.url} className="project-button">
           Demo <i className="fa-solid fa-arrow-right project-button-icon"></i>

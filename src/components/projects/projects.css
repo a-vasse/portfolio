@@ -1,6 +1,6 @@
 .projects-container {
   gap: 1rem;
-  grid-template-columns: repeat(3, max-content);
+  grid-template-columns: repeat(2, 450px);
   justify-content: center;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .project-img {
-  width: 295px;
+  width: 430px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
 }
@@ -50,6 +50,11 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-5);
+}
+
+.project-details {
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
 }
 
 .project-button {
@@ -84,6 +89,7 @@
 @media screen and (max-width: 992px) {
   .projects-container {
     gap: 1.25rem;
+    grid-template-columns: repeat(2, 350px);
   }
 
   .project-card {
