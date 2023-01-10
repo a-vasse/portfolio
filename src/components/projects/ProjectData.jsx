@@ -78,7 +78,7 @@ export const projectsData = [
     description: "This page! Written in React.js",
     tools: "HTML/CSS, React.js",
     category: "individual",
-    url: "alexvasse.com",
+    url: "https://alexvasse.com",
     gh: "https://github.com/a-vasse/portfolio"
   },
   {
