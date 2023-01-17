@@ -9,6 +9,7 @@ import Work8 from "../../assets/projects/JSMovieDirThumb.png";
 import Work9 from "../../assets/projects/JSPlayerThumb.png";
 import Work10 from "../../assets/projects/KonamiCodeThumb.png";
 import Work11 from "../../assets/projects/PortfolioThumb.png";
+import Work12 from "../../assets/projects/CryptolioThumb.png";
 
 export const projectsData = [
   {
@@ -93,6 +94,16 @@ export const projectsData = [
   },
   {
     id: 9,
+    image: Work12,
+    title: "Cryptolio - Cryptocurrency Calculator",
+    category: "individual",
+    description: "Manage your cryptocurrency by calculating assets against live market data",
+    tools: "HTML/Sass, React, Ruby on Rails, Devise, APIs",
+    url: "http://www.substracked.com",
+    gh: "https://github.com/a-vasse/substracked"
+  },
+  {
+    id: 10,
     image: Work4,
     title: "Barker - Online SNS Messaging",
     description: "Post messages and keep informed with post from other users",
@@ -102,7 +113,7 @@ export const projectsData = [
     gh: "https://github.com/a-vasse/barker"
   },
   {
-    id: 10,
+    id: 11,
     image: Work2,
     title: "Rent a Retro - Video Game Rentals/Loans",
     category: "team",
@@ -112,7 +123,7 @@ export const projectsData = [
     gh: "https://github.com/a-vasse/Rent-a-retro"
   },
   {
-    id: 11,
+    id: 12,
     image: Work1,
     title: "Substracked - Subscription Management",
     category: "team",
