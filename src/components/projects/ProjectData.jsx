@@ -97,10 +97,10 @@ export const projectsData = [
     image: Work12,
     title: "Cryptolio - Cryptocurrency Calculator",
     category: "individual",
-    description: "Manage your cryptocurrency by calculating assets against live market data",
+    description: "Manage and calculate crypto portfolio against live market data",
     tools: "HTML/Sass, React, Ruby on Rails, Devise, APIs",
-    url: "http://www.substracked.com",
-    gh: "https://github.com/a-vasse/substracked"
+    url: "http://cryptolio-av.herokuapp.com",
+    gh: "https://github.com/a-vasse/crypto-portfolio"
   },
   {
     id: 10,
