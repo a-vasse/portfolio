@@ -9,7 +9,7 @@ import Work8 from "../../assets/projects/JSMovieDirThumb.png";
 import Work9 from "../../assets/projects/JSPlayerThumb.png";
 import Work10 from "../../assets/projects/KonamiCodeThumb.png";
 import Work11 from "../../assets/projects/PortfolioThumb.png";
-import Work12 from "../../assets/projects/CryptolioThumb.png";
+import Work12 from "../../assets/projects/CryptolioThumb.jpg";
 
 export const projectsData = [
   {
